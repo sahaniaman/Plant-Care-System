@@ -1,0 +1,814 @@
+/* Plant Care */
+
+position: relative;
+width: 1600px;
+height: 1200px;
+
+background: linear-gradient(85.38deg, #EDEDE4 -23.38%, #F8F2EB 97.65%);
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 1488px;
+height: 948px;
+left: 56px;
+top: 126px;
+
+background: #EFEBE3;
+border-radius: 54px;
+
+
+/* Ellipse 23 */
+
+position: absolute;
+width: 427px;
+height: 427px;
+left: 1342px;
+top: 626px;
+
+background: #F9E1C3;
+box-shadow: 10px 14px 104px rgba(0, 0, 0, 0.12);
+filter: blur(100px);
+
+
+/* Ellipse 24 */
+
+position: absolute;
+width: 279px;
+height: 279px;
+left: 716px;
+top: 923px;
+
+background: rgba(49, 129, 97, 0.25);
+box-shadow: 10px 14px 104px rgba(0, 0, 0, 0.12);
+filter: blur(100px);
+
+
+/* main */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1440px;
+height: 900px;
+left: 80px;
+top: 150px;
+
+background: rgba(255, 255, 255, 0.25);
+border: 1px solid #FFFFFF;
+box-shadow: 0px 50px 50px #DFD9CE;
+border-radius: 54px;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 1440px;
+height: 905px;
+left: 0px;
+top: 0px;
+
+border-radius: 20px;
+
+
+/* Line 2 */
+
+position: absolute;
+width: 201px;
+height: 0px;
+left: 1378px;
+top: 554px;
+
+border: 2px solid #1A3237;
+transform: rotate(90deg);
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 240px;
+height: 316.89px;
+left: 1100.95px;
+top: 251.5px;
+
+background: #CCD8C8;
+box-shadow: 10px 14px 104px rgba(0, 0, 0, 0.12);
+filter: blur(25px);
+transform: rotate(38.26deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 195.62px;
+height: 1398.09px;
+left: 1305.68px;
+top: -173px;
+
+background: #F9E1C3;
+box-shadow: 10px 14px 104px rgba(0, 0, 0, 0.12);
+filter: blur(100px);
+transform: rotate(38.26deg);
+
+
+/* Group 1000001769 */
+
+position: absolute;
+width: 1350px;
+height: 109px;
+left: 90px;
+top: 0px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 305px;
+height: 109px;
+left: 1135px;
+top: 0px;
+
+background: #142E38;
+
+
+/* Group 1000001767 */
+
+position: absolute;
+width: 763px;
+height: 36px;
+left: 90px;
+top: 38px;
+
+
+
+/* Group 1000001768 */
+
+position: absolute;
+width: 763px;
+height: 36px;
+left: 90px;
+top: 38px;
+
+
+
+/* Logo */
+
+position: absolute;
+width: 191px;
+height: 36px;
+left: 90px;
+top: 38px;
+
+
+
+/* Plant Care */
+
+position: absolute;
+width: 129px;
+height: 36px;
+left: 152px;
+top: 38px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+text-align: center;
+
+color: #435151;
+
+
+
+/* leaf-fill 1 */
+
+position: absolute;
+width: 38.68px;
+height: 25.49px;
+left: 90px;
+top: 43px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 8.33%;
+
+background: #435151;
+
+
+/* Header */
+
+position: absolute;
+width: 257px;
+height: 25px;
+left: 596px;
+top: 44px;
+
+
+
+/* About Us */
+
+position: absolute;
+width: 80px;
+height: 25px;
+left: 596px;
+top: 44px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+text-align: center;
+
+color: #142F38;
+
+
+
+/* Contact Us */
+
+position: absolute;
+width: 95px;
+height: 25px;
+left: 758px;
+top: 44px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+text-align: center;
+
+color: #142F38;
+
+
+
+/* Group 7 */
+
+position: absolute;
+width: 144px;
+height: 32px;
+left: 1210px;
+top: 40px;
+
+
+
+/* Profile */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 1266px;
+top: 40px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 4.17%;
+bottom: 8.33%;
+
+background: #FFFFFF;
+
+
+/* Search */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 1210px;
+top: 40px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 7.03%;
+top: 8.33%;
+bottom: 7.03%;
+
+background: #FFFFFF;
+
+
+/* Menu */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 1322px;
+top: 40px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #FFFFFF;
+
+
+/* Plant Image */
+
+position: absolute;
+width: 548px;
+height: 549px;
+left: 776px;
+top: 186px;
+
+
+
+/* Ellipse 21 */
+
+position: absolute;
+width: 548px;
+height: 549px;
+left: 776px;
+top: 186px;
+
+background: #C4C4C4;
+
+
+/* Ellipse 22 */
+
+position: absolute;
+width: 562px;
+height: 563px;
+left: 769px;
+top: 179px;
+
+background: linear-gradient(226.18deg, #9CC485 16.31%, #D5EEC6 84.56%);
+box-shadow: inset 20px 14px 124px rgba(0, 0, 0, 0.18);
+
+
+/* MicrosoftTeams-image__59_-removebg-preview_auto_x2 1 */
+
+position: absolute;
+width: 464px;
+height: 593px;
+left: 818px;
+top: 209px;
+
+background: url(MicrosoftTeams-image__59_-removebg-preview_auto_x2.png);
+
+
+/* Text */
+
+position: absolute;
+width: 931px;
+height: 145px;
+left: 509px;
+top: 755px;
+
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 931px;
+height: 145px;
+left: 509px;
+top: 755px;
+
+background: #142E38;
+
+
+/* Body Text */
+
+position: absolute;
+width: 828px;
+height: 59px;
+left: 553px;
+top: 798px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+color: #FFFFFF;
+
+
+
+/* Image */
+
+position: absolute;
+width: 259px;
+height: 145px;
+left: 250px;
+top: 755px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 259px;
+height: 145px;
+left: 250px;
+top: 755px;
+
+background: #FAB65D;
+box-shadow: 10px 14px 38px rgba(0, 0, 0, 0.14);
+border-radius: 30px 0px 0px 0px;
+
+
+/* Mask Group */
+
+position: absolute;
+width: 139px;
+height: 127px;
+left: 301px;
+top: 773px;
+
+opacity: 0.85;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 139px;
+height: 127px;
+left: 301px;
+top: 773px;
+
+background: #B1C08D;
+
+
+/* image 6 */
+
+position: absolute;
+width: 112px;
+height: 142px;
+left: 328px;
+top: 797px;
+
+background: url(image.png);
+
+
+/* Group 18 */
+
+position: absolute;
+width: 32px;
+height: 176px;
+left: 1365px;
+top: 338px;
+
+
+
+/* Frame */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 1365px;
+top: 338px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1A3237;
+
+
+/* Frame */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 1365px;
+top: 410px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1A3237;
+
+
+/* Frame */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 1365px;
+top: 482px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 5.81%;
+right: 10.61%;
+top: 14.79%;
+bottom: 15.85%;
+
+background: #1A3237;
+
+
+/* Ellipse 24 */
+
+position: absolute;
+width: 279px;
+height: 279px;
+left: 477px;
+top: 92px;
+
+background: rgba(49, 129, 97, 0.25);
+box-shadow: 10px 14px 104px rgba(0, 0, 0, 0.12);
+filter: blur(100px);
+
+
+/* Ellipse 25 */
+
+position: absolute;
+width: 427px;
+height: 427px;
+left: -90px;
+top: -43px;
+
+background: rgba(49, 129, 97, 0.1);
+box-shadow: 10px 14px 104px rgba(0, 0, 0, 0.12);
+filter: blur(100px);
+
+
+/* Frame 2 */
+
+position: absolute;
+width: 557px;
+height: 299px;
+left: calc(50% - 557px/2 - 369.5px);
+top: calc(50% - 299px/2 - 31.5px);
+
+background: rgba(255, 255, 255, 0.25);
+border: 3px solid rgba(179, 204, 252, 0.1);
+box-shadow: 0px 4px 21px 1px rgba(36, 99, 235, 0.05);
+border-radius: 12px;
+
+
+/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 477px;
+height: 24px;
+left: 40px;
+top: 32px;
+
+
+
+/* Upload Photos */
+
+width: 117px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #244030;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 477px;
+height: 188px;
+left: 40px;
+top: 72px;
+
+border: 1px dashed #244030;
+border-radius: 9px;
+
+
+/* Frame 12 */
+
+position: absolute;
+width: 258px;
+height: 113px;
+left: 110px;
+top: 40px;
+
+
+
+/* Icon/Picture */
+
+position: absolute;
+width: 74px;
+height: 64px;
+left: calc(50% - 74px/2);
+top: 0px;
+
+
+
+/* Picture */
+
+position: absolute;
+left: -19.3%;
+right: -19.18%;
+top: -29.99%;
+bottom: -30.13%;
+
+
+
+/* Body */
+
+position: absolute;
+width: 63.78px;
+height: 50.11px;
+left: 15.09px;
+top: 19.64px;
+
+background: linear-gradient(109.26deg, #93B8FF 27.04%, #1F4690 97.36%);
+backdrop-filter: blur(4.55546px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 13.6664px;
+
+
+/* image 6 */
+
+position: absolute;
+width: 64.5px;
+height: 50.5px;
+left: 23.28px;
+top: 33.19px;
+
+background: url(image.png);
+
+
+/* browse */
+
+position: absolute;
+left: 70.93%;
+right: 11.63%;
+top: 70.8%;
+bottom: 13.27%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+color: #244030;
+
+
+
+/* Drop your image here, or */
+
+position: absolute;
+width: 149px;
+height: 18px;
+left: 30px;
+top: 80px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+color: #244030;
+
+
+
+/* Supports: PNG, JPG, JPEG, WEBP */
+
+position: absolute;
+width: 124px;
+height: 12px;
+left: calc(50% - 124px/2);
+top: 101px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 150%;
+/* identical to box height, or 12px */
+
+color: #969DB2;
+

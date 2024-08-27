@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Care</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='PlantCare.css') }}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        #plantc{
+            position: absolute ;
+            top: 10vh;
+            left: 30vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <div class="plantcare"> -->
+    <div class="main">
+
+    </div>
+
+    <div class="rectangle18">
+
+
+    </div>
+    <div class="rectangle12"></div>
+    <div class="ellipse24">
+    </div>
+    
+
+
+    <header>
+        <a id="plantc"  href="/">
+            <i class='bx bxs-leaf '></i>
+            <span class="logo-text">Plant Care</span>
+        </a>
+        
+        <div class="nav_home">
+            <nav>
+                <ul>
+                    <a class="aboutus" href="/about">About Us</a>
+                    <a class="contactus" href="/contact">Contact Us</a>
+                </ul>
+            </nav>            
+        </div>
+
+
+
+
+        </div>
+
+        </div>
+        <div class="rect15">
+            <div class="user-controls">
+                <div><i class='bx bx-search-alt-2'></i></div>
+                <div><i class='bx bx-user'></i></div>
+                <div><i class='bx bx-menu'></i></div>
+
+
+
+            </div>
+        </div>
+    </header>
+    <div class="ellipse"></div>
+
+    <div class="ellipse23"></div>
+
+    <main>
+        <!-- <section class="upload-section">
+            <div class="upload-box">
+                <div class="upload-icon">
+                    <img src="static/upload-icon.png" alt="Upload Icon">
+                </div>
+                <p>Drop your image here, or <a href="#">browse</a></p>
+                <small>Supports PNG, JPG, JPEG, WEBP</small>
+            </div>
+        </section> -->
+        <div class="frame2">
+            <div class="frame5">
+                <h6>Upload Photos</h6>
+            </div>
+            <form class="form" action="/predict" method="post" enctype="multipart/form-data">
+                <div class="upload-box">
+                    <div class="frame12">
+                        <img src="static/image.png" alt="">
+                        <p>Drop your image here, or <a href="#" id="browseLink">browse</a></p>
+                        <small>Supports PNG, JPG, JPEG, WEBP</small>
+                        <div class="icon">
+                            <div class="picture"></div>
+                        </div>
+                    </div>
+                    <!-- Hidden file input for image upload -->
+                    <input type="file" name="image" id="imageInput" style="display: none;">
+                </div>
+            </form>
+
+            <section class="plant-image-section">
+
+                <div class="info-box">
+                    <p>Plant Diseases are Shifty Enemies</p>
+                </div>
+
+                <div class="bottom_rec">
+                    <img src="static/image_bottom.png" alt="">
+
+
+                </div>
+
+
+                <div class="social_icons">
+                    <div>
+                        <ul>
+                            <a href="#"><i class='bx bxl-facebook' ></i></a>
+                            <a href="#"><i class='bx bxl-instagram' ></i></a>
+                            <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        </ul>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </section>
+
+
+
+
+
+
+    </main>
+
+    <div class="image_home">
+        <img src="static/image_plant.png" alt="">
+
+    </div>
+
+
+
+    </div>
+    </div>
+    </div>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
