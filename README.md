@@ -37,13 +37,14 @@ PlantCare is a web application designed to diagnose and provide recommendations 
 
 3. Create a virtual environment and activate it:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+    pip install virtualenv
+   python3 -m venv myenv
+   myenv\Scripts\activate
    ```
 
 4. Install the required packages:
    ```bash
-   pip install -r requirements.txt
+   pip install flask tensorflow pillow flask_cors
    ```
 
 5. Run the Flask server:
