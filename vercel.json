@@ -11,6 +11,7 @@
     {
       "src": "backend/app.py",
       "use": "@vercel/python"
+      "config":{"runtime":"python3.6"}
     }
   ],
   "routes": [
