@@ -9,11 +9,11 @@ const AboutUs = () => {
   const developersData = [
     {
       name: "Aman Sahani",
-      github: "https://github.com/rishiyadav11/",
-      description: "Hi! My name is Aman, I am a UI/UX designer. I am a creative person.",
-      twitter: "https://x.com/RishiYadav5911",
-      email: "sbdkjk@gmail.com",
-      linkedinId: "https://www.linkedin.com/in/rishi-yadav-809096279/",
+      github: "https://github.com/sahaniaman",
+      description: "UI/UX designer and Backend Developer",
+      twitter: "https://x.com/amansahani20",
+      email: "sahaniaman480@gmail.com",
+      linkedinId: "https://www.linkedin.com/in/aman-sahani-279989211/",
       imgurl: "https://s3-alpha-sig.figma.com/img/7fdb/13ee/5e42d5a62aed73166cef4f602fd563a9?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VC7YmbL5oOyA7lrxAFZ8tvlcqUsBzV9bSvnLhFS8n1dZ4IwE433ulJilFeZdCCHlP0S0LCpPWGH7-8yAuVTMTa~G3xkqX8H6~99wyLZKfvDyt4sJ4qr5J0BYE69kEZBCULdHYT~Q~jYy3nkVmKqVbxjHkjqqRVahssFNT2vqYM0glg6HRiQDrdut3JL90oF4k56fWtDuobbqdx89Hm1pnVv9bM-0ioqV3B2Nj9l57iJbz~iFQSDP21rHlM9HBnGNtn-myS5p6Wjl9wWYBRI80fC0C0oirtN52ks6NmVmE~b0nQyLp-V7RdJg~v3Awe4NwBFBX612oIp8ggEt5NWdVw__"
     },
     {
@@ -27,20 +27,20 @@ const AboutUs = () => {
     },
     {
       name: "Harshit Singh",
-      github: "https://github.com/rishiyadav11/",
-      description: "Machine learning model creator with a focus on deep learning.",
-      twitter: "https://x.com/RishiYadav5911",
-      email: "example2@gmail.com",
-      linkedinId: "https://www.linkedin.com/in/rishi-yadav-809096279/",
+      github: "https://github.com/legend877",
+      description: "Machine learning model creator and Front-end Developer.",
+      twitter: "https://x.com",
+      email: "hs104377@gmail.com",
+      linkedinId: "https://www.linkedin.com/in/harshit-singh-6218872a9/",
       imgurl: "https://s3-alpha-sig.figma.com/img/7fdb/13ee/5e42d5a62aed73166cef4f602fd563a9?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VC7YmbL5oOyA7lrxAFZ8tvlcqUsBzV9bSvnLhFS8n1dZ4IwE433ulJilFeZdCCHlP0S0LCpPWGH7-8yAuVTMTa~G3xkqX8H6~99wyLZKfvDyt4sJ4qr5J0BYE69kEZBCULdHYT~Q~jYy3nkVmKqVbxjHkjqqRVahssFNT2vqYM0glg6HRiQDrdut3JL90oF4k56fWtDuobbqdx89Hm1pnVv9bM-0ioqV3B2Nj9l57iJbz~iFQSDP21rHlM9HBnGNtn-myS5p6Wjl9wWYBRI80fC0C0oirtN52ks6NmVmE~b0nQyLp-V7RdJg~v3Awe4NwBFBX612oIp8ggEt5NWdVw__"
     },
     {
       name: "Apoorva Gupta",
-      github: "https://github.com/rishiyadav11/",
-      description: "Machine learning model creator with expertise in natural language processing.",
-      twitter: "https://x.com/RishiYadav5911",
-      email: "example3@gmail.com",
-      linkedinId: "https://www.linkedin.com/in/rishi-yadav-809096279/",
+      github: "https://github.com/apoorvagupta9068",
+      description: "Backend Developer",
+      twitter: "https://x.com",
+      email: "apoorvagupta9068@gmail.com",
+      linkedinId: "https://www.linkedin.com/in/apoorva-g-9ba552253/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       imgurl: "https://s3-alpha-sig.figma.com/img/7fdb/13ee/5e42d5a62aed73166cef4f602fd563a9?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VC7YmbL5oOyA7lrxAFZ8tvlcqUsBzV9bSvnLhFS8n1dZ4IwE433ulJilFeZdCCHlP0S0LCpPWGH7-8yAuVTMTa~G3xkqX8H6~99wyLZKfvDyt4sJ4qr5J0BYE69kEZBCULdHYT~Q~jYy3nkVmKqVbxjHkjqqRVahssFNT2vqYM0glg6HRiQDrdut3JL90oF4k56fWtDuobbqdx89Hm1pnVv9bM-0ioqV3B2Nj9l57iJbz~iFQSDP21rHlM9HBnGNtn-myS5p6Wjl9wWYBRI80fC0C0oirtN52ks6NmVmE~b0nQyLp-V7RdJg~v3Awe4NwBFBX612oIp8ggEt5NWdVw__"
     }
   ];
