@@ -3,4 +3,6 @@ tensorflow
 Pillow
 Flask-CORS
 uvicorn
+gunicorn
+
 
