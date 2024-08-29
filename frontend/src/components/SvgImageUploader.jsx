@@ -10,7 +10,7 @@ const SvgImageUploader = ({ onUpload }) => {
     formData.append('image', file);
 
     try {
-      const response = await axios.post('http://127.0.0.1:5000/predict', formData, {
+      const response = await axios.post('https://plant-care-system.onrender.com/predict', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
