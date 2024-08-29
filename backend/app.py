@@ -197,25 +197,55 @@ def home():
     return "hello world"
 
 # Define route for prediction@app.route('/predict', methods=['POST'])
+
+# Define route for prediction
+@app.route('/predict', methods=['POST'])
 def predict():
-    image_file = request.files.get('image')
-    if image_file:
-        filename = secure_filename(image_file.filename)
-        filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-        image_file.save(filepath)
+    if request.method == 'POST':
+        image_file = request.files.get('image')
+        if image_file:
+            filename = secure_filename(image_file.filename)
+            filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            image_file.save(filepath)
 
-        img = image.load_img(filepath, target_size=(256, 256))
-        img_array = image.img_to_array(img) / 255.0
-        img_array = np.expand_dims(img_array, axis=0)
+            img = image.load_img(filepath, target_size=(256, 256))
+            img_array = image.img_to_array(img) / 255.0
+            img_array = np.expand_dims(img_array, axis=0)
 
-        prediction = model.predict(img_array)
-        predicted_classes = np.argmax(prediction, axis=1)
-        predicted_results = [{'label': class_labels[idx], 'description': class_info[class_labels[idx]]} for idx in predicted_classes]
+            prediction = model.predict(img_array)
+            predicted_classes = np.argmax(prediction, axis=1)
+            predicted_results = [{'label': class_labels[idx], 'description': class_info[class_labels[idx]]} for idx in predicted_classes]
 
-        image_url = url_for('static', filename=f'uploads/{filename}')
-        return jsonify(predicted_results=predicted_results, image_filename=image_url)
+            image_url = url_for('static', filename=f'uploads/{filename}')
+            return jsonify(predicted_results=predicted_results, image_filename=image_url)
 
     return jsonify({'error': 'Invalid request'}), 400
+
+    if request.method == 'POST':
+        # Check if the post request has the file part
+        image_file = request.files.get('image')
+        if image_file:
+            # Save the uploaded image
+            filename = secure_filename(image_file.filename)
+            filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            image_file.save(filepath)
+
+            # Load and preprocess the image
+            img = image.load_img(filepath, target_size=(256, 256))
+            img_array = image.img_to_array(img) / 255.0
+            img_array = np.expand_dims(img_array, axis=0)
+            
+            # Make a prediction
+            prediction = model.predict(img_array)
+            predicted_classes = np.argmax(prediction, axis=1)
+            predicted_results = [{'label': class_labels[idx], 'description': class_info[class_labels[idx]]} for idx in predicted_classes]
+            
+            # Return the prediction results and image URL as JSON
+            image_url = url_for('static', filename=filename)  # Generate the URL to access the image
+            return jsonify(predicted_results=predicted_results, image_filename=image_url)
+    
+    return jsonify({'error': 'Invalid request'}), 400
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)   
