@@ -3,13 +3,16 @@
   "builds": [
     {
       "src": "app.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "env": {
+        "REQUIREMENTS_FILE": "requirements.txt" 
+      }
     }
   ],
   "routes": [
     {
       "src": "/",
-      "dest": "plant.html" 
+      "dest": "plant.html"
     },
     {
       "src": "/predict",
@@ -17,6 +20,6 @@
     }
   ],
   "env": {
-    "UPLOAD_FOLDER": "/tmp/uploads"  
+    "UPLOAD_FOLDER": "/tmp/uploads"
   }
 }
