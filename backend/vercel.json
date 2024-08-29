@@ -3,17 +3,20 @@
   "builds": [
     {
       "src": "app.py",
-      "use": "@vercel/python",
-      }
+      "use": "@vercel/python"
+    }
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "app.py"
+      "src": "/",
+      "dest": "plant.html" 
     },
     {
-      "src": "/",
-      "dest": "index.html"
+      "src": "/predict",
+      "dest": "app.py"
     }
-  ]
+  ],
+  "env": {
+    "UPLOAD_FOLDER": "/tmp/uploads"  
+  }
 }
