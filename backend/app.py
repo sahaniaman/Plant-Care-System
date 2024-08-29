@@ -195,7 +195,7 @@ class_info = {
 
 @app.route('/')
 def home():
-    return "hello world"
+    return "hello home page 1"
 
 @app.route('/predict', methods=['POST'])
 def predict():
