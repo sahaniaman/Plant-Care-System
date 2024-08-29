@@ -9,7 +9,7 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__, static_folder='static')
 app.config['DEBUG'] = True
-CORS(app)  # This will allow all origins
+CORS(app, resources={r"/predict": {"origins": "https://majestic-pony-2b8e45.netlify.app"}})
 
 # Folder to save uploaded images
 UPLOAD_FOLDER = 'static/uploads'
