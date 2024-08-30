@@ -10,8 +10,9 @@ app = Flask(__name__, static_folder='static')
 app.config['DEBUG'] = False
 CORS(app, resources={
     r"/predict": {
-        "origins": "https://majestic-pony-2b8e45.netlify.app",
-        "allow_headers": ["Authorization"]
+        "origins": "https://majestic-pony-2b8e45.netlify.app/",
+        "methods": ["POST"],
+        "allow_headers": ["Content-Type", "Authorization"]
     }
 })
 
