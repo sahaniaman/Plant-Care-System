@@ -13,7 +13,7 @@ CORS(app, resources={
         "origins": "https://majestic-pony-2b8e45.netlify.app",
         "allow_headers": ["Authorization"]
     }
-}
+})
 
 # Folder to save uploaded images
 UPLOAD_FOLDER = 'static/uploads'
