@@ -7,10 +7,12 @@ export default defineConfig({
   server: {
     proxy: {
       '/predict': {
-        target: 'https://plant-care-system.onrender.com',  
+        target: 'https://plant-care-system.onrender.com',
         changeOrigin: true,
-        secure: true, 
+        secure: true,
       },
     },
+    port: 8080,  // Change port if needed
+    https: true, // Set to true if using HTTPS for development
   },
 });
