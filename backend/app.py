@@ -214,8 +214,8 @@ def predict():
             predicted_classes = np.argmax(prediction, axis=1)
             predicted_results = [{'label': class_labels[idx], 'description': class_info[class_labels[idx]]} for idx in predicted_classes]
 
-            image_url = url_for('static', filename=f'uploads/{filename}')
-            return jsonify(predicted_results=predicted_results, image_filename=image_url)
+            image_url = url_for('static', filename=f'uploads/{filename}', _external=True)
+            return jsonify(predicted_results=predicted_results, image_filename=image_url), 200
 
     return jsonify({'error': 'Invalid request'}), 400
 
