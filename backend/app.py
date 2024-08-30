@@ -7,7 +7,7 @@ import os
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__, static_folder='static')
-app.config['DEBUG'] = True
+app.config['DEBUG'] = False
 CORS(app, resources={r"/predict": {"origins": "https://majestic-pony-2b8e45.netlify.app"}})
 
 # Folder to save uploaded images
