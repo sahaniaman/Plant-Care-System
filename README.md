@@ -71,6 +71,11 @@ This platform allows you to upload images of plant leaves, and our CNN model wil
    ```bash
    npm run dev
    ```
+   
+
+## Testing Images
+
+I've included a set of testing images in this repository to help you evaluate the Plant Care System. These images cover a variety of plant species and health conditions, allowing you to see how the model performs across different scenarios. Feel free to use these images to test the platform and explore the results it generates for plant identificationn, health status, and care recommendations.
 
 ## Usage
 
