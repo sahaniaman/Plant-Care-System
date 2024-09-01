@@ -2,9 +2,12 @@ Here's a sample README for your PlantCare project that provides a clean and comp
 
 ---
 
-# PlantCare
+# Plant Care System
 
-PlantCare is a web application designed to diagnose and provide recommendations for plant health issues using a machine learning model. Users can upload images of their plants to receive instant feedback on their health status and recommendations for treatment.
+Welcome to the Plant Care System!!
+This platform allows you to upload images of plant leaves, and our CNN model will identify the plant species, assess its health, and provide personalized care recommendations. Whether you are a gardening enthusiast or just trying to keep your houseplants happy, this tool is here to help you nurtue your green companions.
+
+
 
 ## Features
 
