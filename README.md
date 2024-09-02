@@ -20,7 +20,7 @@ This platform allows you to upload images of plant leaves, and our CNN model wil
 
 - **Backend**: Flask, TensorFlow/Keras
 - **Frontend**: React, Tailwind CSS
-- **Deployment**: Render for the backend, Vercel or Netlify for the frontend
+- **Deployment**: Render for the backend, Render and  Netlify for the frontend
 - **Database**: None (currently, all data is managed in-memory)
 
 ## Installation
