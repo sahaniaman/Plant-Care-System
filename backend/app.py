@@ -5,8 +5,13 @@ from flask_cors import CORS
 import numpy as np
 import os
 from werkzeug.utils import secure_filename
+from honeybadger.contrib import FlaskHoneybadger
 
 app = Flask(__name__, static_folder='static')
+app.config['HONEYBADGER_ENVIRONMENT'] = 'production'
+app.config['HONEYBADGER_API_KEY'] = 'hbp_hIfTri7Vw0eyej82YbBNXSbTrDduGk4izvvQ'
+app.config['HONEYBADGER_PARAMS_FILTERS'] = 'password, secret, credit-card'
+FlaskHoneybadger(app, report_exceptions=True)
 app.config['DEBUG'] = False
 CORS(app, resources={
     r"/predict": {
