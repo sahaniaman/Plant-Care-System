@@ -4,5 +4,6 @@ Pillow
 Flask-CORS
 uvicorn
 gunicorn
+honeybadger
 
 
