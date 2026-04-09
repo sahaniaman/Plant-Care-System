@@ -4,12 +4,19 @@ from tensorflow.keras.preprocessing import image
 from flask_cors import CORS
 import numpy as np
 import os
+import logging
 from werkzeug.utils import secure_filename
 from honeybadger.contrib import FlaskHoneybadger
 
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 app = Flask(__name__, static_folder='static')
-app.config['HONEYBADGER_ENVIRONMENT'] = 'production'
-app.config['HONEYBADGER_API_KEY'] = 'hbp_hIfTri7Vw0eyej82YbBNXSbTrDduGk4izvvQ'
+app.config['HONEYBADGER_ENVIRONMENT'] = os.environ.get('FLASK_ENV', 'production')
+honeybadger_api_key = os.environ.get('HONEYBADGER_API_KEY', '')
+if not honeybadger_api_key:
+    logger.warning('HONEYBADGER_API_KEY is not set; error monitoring will be disabled.')
+app.config['HONEYBADGER_API_KEY'] = honeybadger_api_key
 app.config['HONEYBADGER_PARAMS_FILTERS'] = 'password, secret, credit-card'
 FlaskHoneybadger(app, report_exceptions=True)
 app.config['DEBUG'] = False
@@ -231,4 +238,4 @@ def predict():
     return jsonify({'error': 'Invalid request'}), 400
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=False)
