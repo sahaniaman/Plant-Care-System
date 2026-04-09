@@ -98,7 +98,6 @@ const Home = () => {
     
   };
 
-  console.log(result)
   return (
     <div className='w-full h-full'>
       <Navbar />
@@ -149,7 +148,7 @@ const Home = () => {
     <div className="rounded-full overflow-hidden bg-custom-gradient h-[88%] w-[80%] flex justify-center items-center">
       <img
         className='w-full h-full object-cover object-bottom'
-        src={`http://127.0.0.1:5000${result.image_filename}`} // Ensure this path is correct
+        src={`${import.meta.env.VITE_API_URL || 'https://plant-care-system.onrender.com'}${result.image_filename}`}
         alt="Predicted result"
       />
     </div>
